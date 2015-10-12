@@ -1,6 +1,6 @@
 # Ansible Role: Nginx
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-nginx)
+[![Build Status](https://travis-ci.org/yfix/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/yfix/ansible-role-nginx)
 
 Installs Nginx on RedHat/CentOS or Debian/Ubuntu linux servers.
 
@@ -89,12 +89,4 @@ None.
 
     - hosts: server
       roles:
-        - { role: geerlingguy.nginx }
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+        - { role: yfix.nginx }
